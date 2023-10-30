@@ -1,0 +1,138 @@
+/* GENERAL SETTINGS */
+body {
+  color: white;
+  background-color: rgb(126, 181, 192);
+  margin: 0px;
+  font-family: "Ruda", sans-serif;
+}
+/*NAVIGATION BAR*/
+.headings h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+#navigation a:hover {
+  background-color: rgb(63, 63, 134);
+  color: white;
+}
+
+.headings ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.headings li a {
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* HEADER TEXT AND PIC */
+.header-text h1 {
+  font-size: 45px;
+  padding: 50px 150px 50px 100px;
+  text-align: left;
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+}
+.section-1 {
+  top: 5%;
+  background-color: solid aliceblue;
+  border-radius: 30%;
+}
+.background {
+  position: relative;
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+.header-text {
+  position: absolute;
+  top: 30%;
+  color: aliceblue;
+}
+.header-text h1 {
+  font-size: 4rem;
+}
+/* BIODATA */
+.profile {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 20px;
+}
+.profile img {
+  margin-top: 10%;
+  opacity: 0.9;
+  border-radius: 20%;
+  width: 60%;
+  height: auto;
+  margin-left: 10%;
+}
+.about {
+  padding-top: 10%;
+  color: white;
+  font-size: 1rem;
+}
+.about ul {
+  list-style-type: none;
+}
+.about img {
+  width: 30px;
+  height: auto;
+  padding-right:20% ;
+}
+.about a {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.about a:hover {
+  color: yellow;
+}
+/* FOOTER */
+footer {
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 760px) {
+  .header-text h1 {
+    font-size: 2rem;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile img {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .about {
+    padding-top: 0%;
+  }
+  .about img {
+    width: 10px;
+    height: auto;
+    padding-right: 10%;
+  }
+  .about a {
+    font-size: 13px;
+  }
+
+}

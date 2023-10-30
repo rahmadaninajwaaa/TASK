@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz-css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Ruda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ruda:wght@800&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basic CSS Quiz</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="headings">
+      <h3>CSS Magic</h3>
+      <nav id="navigation">
+        <ul>
+          <li class="nav-menu"><a href="index.html">Home</a></li>
+          <li class="nav-menu"><a href="ABOUT-AUTHOR.html">About Author</a></li>
+          <li class="nav-menu"><a href="BLOG-ENTRIES.html">Blog Entries</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- HEADER -->
+    <a href="quiz-home.html">
+      <button>Back to Menu</button>
+    </a>
+
+    <h1>Fun Quiz</h1>
+    <h2>Chapter 2 : Basic CSS Quiz</h2>
+
+    <!-- QUESTION -->
+    <ol>
+      <li class="question">
+        <h3>
+          Which of the following property is used to set the background color of
+          an element?
+        </h3>
+        <div class="option">
+          <label for="o1"
+            ><input
+              type="radio"
+              name="question0"
+              value="A"
+            />background-color</label
+          >
+          <label for="o2"
+            ><input
+              type="radio"
+              name="question0"
+              value="B"
+            />background-image</label
+          >
+          <label for="o3"
+            ><input
+              type="radio"
+              name="question0"
+              value="C"
+            />background-settings</label
+          >
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>
+          What's wrong with
+          <img
+            src="https://drive.google.com/uc?id=17_3ngGa4ZizmrGcTs2e_O_JXpRNoRUlH"
+            alt="Wrong Code"
+          />
+        </h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question1" value="A" />It should be
+            <img
+              src="https://drive.google.com/uc?id=1pKyjVjg_wSIgZbo9f_8nWw2hctH30mZo"
+              alt="Option"
+          /></label>
+          <label for="o2"
+            ><input type="radio" name="question1" value="B" />It should be
+            <img
+              src="https://drive.google.com/uc?id=1r0qtI3R05DFSjCxGHBvJiye68KNltr3L"
+              alt="Option"
+          /></label>
+          <label for="o3"
+            ><input type="radio" name="question1" value="C" />It should be
+            <img
+              src="https://drive.google.com/uc?id=186QQ5hr15OcrqhJ61lGaZ7HGtZYH0sAX"
+              alt="Option"
+          /></label>
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>What is an example of a CSS event?</h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question2" value="A" />Start</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question2" value="B" />Hover</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question2" value="C" />Play</label
+          >
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>What should every CSS end with?</h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question3" value="A" />;</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question3" value="B" />"</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question3" value="C" />/</label
+          >
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>What is HTML Element as the Box Model below?</h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question4" value="A" />margin</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question4" value="B" />padding</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question4" value="C" />All of
+            above</label
+          >
+        </div>
+      </li>
+
+      <!-- BUTTON TO GET SCORE -->
+      <button id="viewResults">View Results</button>
+    </ol>
+
+    <!-- INSERT JAVASCRIPT FOR INTERACTION -->
+    <script src="quiz-css.js"></script>
+  </body>
+</html>

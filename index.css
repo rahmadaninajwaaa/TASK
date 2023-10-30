@@ -1,0 +1,198 @@
+/* GENERAL */
+img {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+li a {
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  padding: 50px 150px 50px 100px;
+  text-align: left;
+  font-family: "Yeseva One", cursive;
+  margin: 0;
+  width: bold;
+}
+h2,
+ul,
+p {
+  margin: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+a {
+  color: black;
+}
+body {
+  position: relative;
+  margin: 0px;
+  font-family: "Ruda", sans-serif;
+  background-color: rgb(253, 246, 236);
+}
+.headings h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 2rem;
+  margin: 10px;
+}
+/*NAVIGATION BAR*/
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.headings ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.headings li a {
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#navigation a:hover {
+  background-color: rgb(63, 63, 134);
+  color: white;
+}
+.header-photo {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block; /*for text in front of image usage*/
+}
+
+/*CONTAIN HEADER PHOTO AND CSS INTRO*/
+.section-1 {
+  padding-bottom: 100px;
+}
+
+/*CONTAIN SPECIFICAL TEXT AND EXPLANATION ABOUT CSS*/
+.section-2 {
+  /* padding: 2em;
+  margin: 3em; */
+  background-color: rgb(228, 182, 147);
+  color: rgb(70, 70, 115);
+  justify-content: center;
+}
+.css-menu {
+  float: left;
+  width: 70%;
+  list-style: none;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30%;
+  border: solid rgb(114, 114, 185) 2px;
+  color: rgb(114, 114, 185);
+}
+.section-2 ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.section-2 img {
+  width: 70%;
+  height: auto;
+  padding: 10px;
+}
+
+/* SOCIAL MEDIA INFO */
+.section-3 {
+  background-image: url("header-2.jpg");
+  background-repeat: round;
+  /* margin: 2em; */
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.section-3 li {
+  list-style-type: none;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.section-3 img {
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+
+.section-3 img:hover {
+  width: 10%;
+  height: auto;
+  background-color: rgb(63, 63, 134);
+  border-radius: 30%;
+  text-align: center;
+  margin: 20px;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  h2,
+  ul,
+  p {
+    padding: 10px;
+  }
+  .section-2 ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .section-2 img {
+    width: 50%;
+    height: auto;
+  }
+  .css-menu {
+    width: 50%;
+    height: auto;
+  }
+  .section-3 {
+    justify-content: center;
+  }
+  .section-3 li {
+    padding-top: 10px;
+  }
+  .section-3 img:hover {
+    width: 10%;
+    margin: 10px;
+  }
+}

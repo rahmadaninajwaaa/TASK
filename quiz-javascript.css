@@ -1,0 +1,76 @@
+/* NAVIGATION */
+.headings h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #eddcd9;
+}
+#navigation a:hover {
+  background-color: #264143;
+  color: #eddcd9;
+}
+.headings ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.headings li a {
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  color: #de5499;
+}
+/* HEADER */
+h1 {
+  color: #264143;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Yeseva One", cursive;
+}
+h2 {
+  color: #de5499;
+  text-align: center;
+}
+
+/* QUESTION */
+button {
+  margin: 2%;
+}
+body {
+  background-color: #f2ebe9;
+  font-family: "Ruda", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  color: rgb(0, 0, 0);
+}
+img {
+  width: 40%;
+  height: auto;
+}
+.option label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 760px){
+  #viewResults{
+    display: flex;
+    float: right;
+    margin: 6%;
+  }
+}

@@ -1,0 +1,123 @@
+/* NAVIGATION */
+.headings h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #007ea7;
+}
+#navigation a:hover {
+  background-color: #ffffff;
+  color: #007ea7;
+}
+.headings ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.headings li a {
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
+/* HEADER */
+button {
+  margin: 2%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Yeseva One", cursive;
+}
+h2 {
+  color: #53b2f1;
+  text-align: center;
+}
+
+/* CHOICES */
+body {
+  background-color: #003459;
+  font-family: "Ruda", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  color: rgb(198, 198, 198);
+  text-align: center;
+}
+ol {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2%;
+  margin: 0;
+  padding: 0;
+}
+.quiz-options li {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 6%;
+  margin-left: 5%;
+}
+
+.quiz-options li {
+  cursor: pointer;
+}
+
+.quiz-options li:hover {
+  background-color: rgb(255, 255, 255);
+  color: #003459;
+}
+
+.quiz-options li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s; /* Add a color transition for smooth change */
+}
+
+.quiz-options li:hover a {
+  color: #003459;
+  transition: color 0.5s;
+}
+
+.quiz-options li.clicked a {
+  color: #003459;
+  animation: fade-in 2s ease-in-out;
+}
+
+/* Fade-in animation in (a) hover */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 760px) {
+  ol {
+    flex-direction: column; /* Display <li> elements vertically */
+  }
+
+  .quiz-options li {
+    margin-left: 0;
+    padding: 6% 0; /* Add padding for vertical layout */
+  }
+}
