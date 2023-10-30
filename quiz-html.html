@@ -1,93 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="quiz-html.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Ruda&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ruda:wght@800&family=Yeseva+One&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz-html.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&family=Ruda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ruda:wght@800&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Basic HTML Quiz</title>
-</head>
-<body>
-        <!-- NAVIGATION BAR -->
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
     <div class="headings">
-    <h3>CSS Magic</h3>
-    <nav id = navigation>
+      <h3>CSS Magic</h3>
+      <nav id="navigation">
         <ul>
-            <li class="nav-menu"><a href="index.html">Home</a></li>
-            <li class="nav-menu"><a href="ABOUT-AUTHOR.html">About Author</a></li>
-            <li class="nav-menu"><a href="BLOG-ENTRIES.html">Blog Entries</a>
+          <li class="nav-menu"><a href="index.html">Home</a></li>
+          <li class="nav-menu"><a href="ABOUT-AUTHOR.html">About Author</a></li>
+          <li class="nav-menu"><a href="BLOG-ENTRIES.html">Blog Entries</a></li>
         </ul>
-    </nav>
+      </nav>
     </div>
 
     <!-- HEADER -->
     <a href="quiz-home.html">
-        <button>Back to Menu</button>
+      <button>Back to Menu</button>
     </a>
-    
+
     <h1>Fun Quiz</h1>
     <h2>Chapter 1 : Basic HTML Quiz</h2>
 
-<!-- QUESTION  -->
-    <ol>
-        <li class="question">
-            <h3>What does HTML stands for?</h3>
-            <div class="option">
-                <label for="o1"><input type="radio" name="question0" value="A">Hyper Text Markup Language</label>
-                <label for="o2"><input type="radio" name="question0" value="B">Hot Mail</label>
-                <label for="o3"><input type="radio" name="question0" value="C">How to Make Layout</label>
-            </div>
-        </li>
+    <!-- QUESTION  -->
 
-
-        <li class="question">
-            <h3>What is the difference between an opening tag and a closing tag?</h3>
-            <div class="option">
-                <label for="o1"><input type="radio" name="question1" value="A">Opening tag has a "/" in front</label>
-                <label for="o2"><input type="radio" name="question1" value="B">Closing tag has a "/" in front</label>
-                <label for="o3"><input type="radio" name="question1" value="C">There is no difference</label>
-            </div>
-        </li>
-
-
-
-        <li class="question">
-            <h3>What type of type is "br"?</h3>
-            <div class="option">
-                <label for="o1"><input type="radio" name="question2" value="A">Break Tag</label>
-                <label for="o2"><input type="radio" name="question2" value="B">A Broken One</label>
-                <label for="o3"><input type="radio" name="question2" value="C">An Opening Tag</label>
-            </div></li>
-
-
-    <li class="question">
-        <div class="question">
-            <h3>Which should values always be enclosed with?</h3>
-            <div class="option">
-                <label for="o1"><input type="radio" name="question3" value="A">Quotation marks</label>
-                <label for="o2"><input type="radio" name="question3" value="B">Commas</label>
-                <label for="o3"><input type="radio" name="question3" value="C">Parenthesis</label>
-            </div>
-    </li>
-
-    <li class="question">
-        <h3>What is always a welcome page, and explains the purpose or topic of the site?</h3>
+    <ol id="quiz">
+      <li class="question">
+        <h3>What does HTML stand for?</h3>
         <div class="option">
-            <label for="o1"><input type="radio" name="question4" value="A">Page 4</label>
-            <label for="o2"><input type="radio" name="question4" value="B">Homepage</label>
-            <label for="o3"><input type="radio" name="question4" value="C">Table of Content</label>
+          <label for="o1"
+            ><input type="radio" name="question0" value="A" />Hyper Text Markup
+            Language</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question0" value="B" />Hot Mail</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question0" value="C" />How to Make
+            Layout</label
+          >
         </div>
-    </li>
+      </li>
 
-    <!-- BUTTON TO GET SCORE -->
-    <button id="viewResults">View Results</button>
+      <li class="question">
+        <h3>
+          What is the difference between an opening tag and a closing tag?
+        </h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question1" value="A" />Opening tag has a
+            "/" in front</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question1" value="B" />Closing tag has a
+            "/" in front</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question1" value="C" />There is no
+            difference</label
+          >
+        </div>
+      </li>
 
-</ol>
+      <li class="question">
+        <h3>What type of tag is "br"?</h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question2" value="A" />Break Tag</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question2" value="B" />A Broken
+            One</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question2" value="C" />An Opening
+            Tag</label
+          >
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>Which values should always be enclosed with?</h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question3" value="A" />Quotation
+            marks</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question3" value="B" />Commas</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question3" value="C" />Parentheses</label
+          >
+        </div>
+      </li>
+
+      <li class="question">
+        <h3>
+          What is always a welcome page and explains the purpose or topic of the
+          site?
+        </h3>
+        <div class="option">
+          <label for="o1"
+            ><input type="radio" name="question4" value="A" />Page 4</label
+          >
+          <label for="o2"
+            ><input type="radio" name="question4" value="B" />Homepage</label
+          >
+          <label for="o3"
+            ><input type="radio" name="question4" value="C" />Table of
+            Contents</label
+          >
+        </div>
+      </li>
+    </ol>
+    <button id="nextButton">Next</button>
 
     <!-- INSERT JAVASCRIPT FOR INTERACTION -->
     <script src="quiz-html.js"></script>
-</body>
+  </body>
 </html>

@@ -30,7 +30,7 @@ The HTML document is structured as follows:
 - The web also contain the difference part in content. The Author divided it into some section.
 - For 'Home' page, the content is about definition and function of CSS, also how to get any other website updates through social media.
 - For 'About Author' page, it is about the biography of Author. Also contains the social media for any further needs.
-- For 'Blog Entries, it is contains some of Menu of the posts that Author already made. If they clicked through the Menu, page will directly change to the information about any features in CSS (based on what we selected before). Blog Entries in this Webpage contains 3 options, which is an explanation about CSS and how to custom it little bit.
+- For 'Blog Entries, it is contains some of Menu of the posts that Author already made. If they clicked through the Menu, page will directly change to the information about any features in CSS (based on what we selected before). Blog Entries in this Webpage contains 3 options, which is an explanation about CSS and how to custom it little bit, also the last is about the quiz in HTML, CSS, also Javascript.
 
 ## Quiz
 Quiz is a part of Blog Entries that also contains 3 options, which is :
